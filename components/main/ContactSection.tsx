@@ -4,12 +4,13 @@ import { motion } from "framer-motion";
 
 const ContactSection = () => {
     return (
+      
         <motion.div
           initial="hidden"
           animate="visible"
           className="flex flex-col items-center justify-center px-4 md:px-20 mt-20 mb-40 w-full z-[20]"
         >
-          <div className="h-full w-full flex items-center flex-col gap-5 justify-center m-auto text-start">
+          <div id="contact" className="h-full w-full flex items-center flex-col gap-5 justify-center m-auto text-start">
             <h1 className="text-[32px] md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 md:py-20">
               Contáctame!
             </h1>

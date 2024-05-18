@@ -34,19 +34,22 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={`w-full h-full flex-col md:flex-row items-center justify-between ${isOpen ? 'flex' : 'hidden'} md:flex`}>
-          <div className="flex flex-col md:flex-row items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] md:mr-20 px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#" className="cursor-pointer my-2 md:my-0 md:mx-2">
-              About me
-            </a>
-            <a href="#skills" className="cursor-pointer my-2 md:my-0 md:mx-2">
-              Skills
-            </a>
-            <a href="#projects" className="cursor-pointer my-2 md:my-0 md:mx-2">
-              Projects
-            </a>
-          </div>
-        </div>
+        <div className={`max-w-[80%] h-full flex-col md:flex-row items-center justify-between ${isOpen ? 'flex' : 'hidden'} md:flex`}>
+  <div className="flex flex-col md:flex-row items-center justify-center w-full h-auto border border-[#7042f861] bg-[#0300145e] md:mr-20 px-[20px] py-[10px] rounded-full text-gray-200">
+    <a href="#" className="cursor-pointer my-2 md:my-0 md:mx-14">
+      About me
+    </a>
+    <a href="#skills" className="cursor-pointer my-2 md:my-0 md:mx-14">
+      Skills
+    </a>
+    <a href="#projects" className="cursor-pointer my-2 md:my-0 md:mx-14">
+      Projects
+    </a>
+    <a href="#contact" className="cursor-pointer my-2 md:my-0 md:mx-14">
+      Contact
+    </a>
+  </div>
+</div>
 
         <div className="hidden md:flex gap-5">
           {Socials.map((social) => (
