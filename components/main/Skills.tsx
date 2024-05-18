@@ -6,22 +6,14 @@ import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 
 import {
-    Backend_skill,
-    Frontend_skill,
-    Full_stack,
-    Other_skill,
     Skill_data,
   } from "@/constants";
-import SkillDataProvider from "../sub/SkillDataProvider";
-import SkillText from "../sub/SkillText";
-
 
 const Skills = () => {
 
-  
-
     return (
       <div
+        id="skills"
         style={{ backgroundImage: "url(/bg-2.jpg)" }}
         className="h-screen w-screen flex items-center justify-center bg-cover bg-center"
       >
