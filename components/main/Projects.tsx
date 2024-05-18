@@ -12,19 +12,19 @@ const Projects = () => {
     </h1>
     <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
       <ProjectCard
-        src="/NextWebsite.png"
-        title="Modern Next.js Portfolio"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        src="/legal.png"
+        title="Modern Website"
+        description="Página web moderna y funcional para una empresa legal, utilizando React y Tailwind CSS."
       />
       <ProjectCard
-        src="/CardImage.png"
-        title="Interactive Website Cards"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        src="/multi.png"
+        title="Website"
+        description="Página web para una empresa especializada en asesorías contables. Tecnologías Utilizadas: TypeScript, Chakra UI."
       />
       <ProjectCard
-        src="/SpaceWebsite.png"
-        title="Space Themed Website"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        src="/tibi.png"
+        title="Portfolio"
+        description="Portfolio Website with Next.js and Framer Motion."
       />
     </div>
   </div>
